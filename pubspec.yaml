@@ -1,0 +1,71 @@
+name: pre_techwiz
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  http: ^1.2.2
+  shimmer: ^3.0.0
+  geocoding: ^3.0.0
+  share_plus: ^10.0.2
+  geolocator: ^13.0.1
+  card_swiper: ^3.0.1
+  url_launcher: ^6.3.0
+  image_picker: ^1.1.2
+  flutter_bloc: ^8.1.6
+  google_fonts: ^6.2.1
+  path_provider: ^2.1.4
+  flutter_svg: ^2.0.10+1
+  icons_launcher: ^2.1.7
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.14.0
+  firebase_storage: ^11.6.0
+  connectivity_plus: ^6.0.5
+  device_info_plus: ^10.1.2
+  package_info_plus: ^8.0.2
+  shared_preferences: ^2.3.1
+  form_field_validator: ^1.1.0
+  firebase_messaging: ^14.7.10
+  cached_network_image: ^3.4.1
+  flutter_easyloading: ^3.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/images/
+    - assets/langs/
+    - assets/icons/
+    - assets/logo/
+    - assets/fonts/
+    - assets/fonts/Plus_Jakarta_Sans/
+    - assets/fonts/Plus_Jakarta_Sans/static/
+  fonts:
+    - family: Plus Jakarta Sans
+      fonts:
+        - asset: assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Bold.ttf
+        - asset: assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-BoldItalic.ttf
+        - asset: assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraBold.ttf
+        - asset: assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraBoldItalic.ttf
+        - asset: assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraLight.ttf
+        - asset: assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraLightItalic.ttf
+        - asset: assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Italic.ttf
+        - asset: assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Light.ttf
+        - asset: assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-LightItalic.ttf
+        - asset: assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Medium.ttf
+        - asset: assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-MediumItalic.ttf
+        - asset: assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Regular.ttf
+        - asset: assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-SemiBold.ttf
+        - asset: assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-SemiBoldItalic.ttf
+  uses-material-design: true

@@ -1,0 +1,7 @@
+{
+    "nuxt.isNuxtApp": false,
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "cSpell.words": [
+        "Geolocator"
+    ]
+}
